@@ -1,0 +1,68 @@
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    background-color: #FFFFFF;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header .nav-links {
+    display: flex;
+    gap: 15px;
+}
+
+header .nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.calendar {
+    margin: 20px;
+}
+
+.calendar .day {
+    display: inline-block;
+    width: 14%;
+    border: 1px solid #E0E0E0;
+    padding: 10px;
+    text-align: center;
+}
+
+.calendar .day.shift-confirmed {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.calendar .day.shift-pending {
+    background-color: #FFEB3B;
+    color: black;
+}
+
+.calendar .day.shift-available {
+    background-color: #E0E0E0;
+    color: black;
+}
+
+.footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
